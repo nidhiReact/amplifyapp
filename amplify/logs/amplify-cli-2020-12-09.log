@@ -1,0 +1,72 @@
+2020-12-09T12:51:23.627Z|info : amplify add api  
+2020-12-09T12:52:07.248Z|info : amplify add api  
+2020-12-09T12:53:29.643Z|info : amplify add api  
+2020-12-09T12:56:24.876Z|info : amplify delete core  
+2020-12-09T12:57:14.365Z|info : amplify delete core  
+2020-12-09T12:59:01.853Z|info : amplify configure core  
+2020-12-09T13:02:33.294Z|info : amplify configure core  
+2020-12-09T13:08:04.192Z|info : amplify init core  
+2020-12-09T13:09:42.898Z|info : amplify-provider-awscloudformation.amplify-service-permission-check.checkAmplifyServiceIAMPermission.amplifyClient.listApps([])
+2020-12-09T13:09:44.334Z|info : amplify-provider-awscloudformation.amplify-service-manager.init.amplifyClient.createApp([{"name":"[***]cra","environmentVariables":{"_LIVE_PACKAGE_UPDATES":"[{\"pkg\":\"@aws-amplify/cli\",\"type\":\"npm\",\"version\":\"latest\"}]"}}])
+2020-12-09T13:09:46.696Z|info : amplify-provider-awscloudformation.amplify-service-manager.init.amplifyClient.getBackendEnvironment([{"appId":"[***]tvdtqy","environmentName":"[***]ev"}])
+2020-12-09T13:09:47.099Z|error : amplify-provider-awscloudformation.amplify-service-manager.init.amplifyClient.getBackendEnvironment([{"appId":"[***]tvdtqy","environmentName":"[***]ev"}])
+NotFoundException: BackendEnvironment dev does not exist.
+2020-12-09T13:09:47.100Z|info : amplify-provider-awscloudformation.amplify-service-manager.init.amplifyClient.getBackendEnvironment([{"appId":"[***]tvdtqy","environmentName":"[***]ev","stackName":"[***]ify-[***]cra-[***]ev-[***]942","deploymentArtifacts":"amplify-authcra-dev-183942-deployment"}])
+2020-12-09T13:10:22.532Z|info : amplify-provider-awscloudformation.attach-backend.storeCurrentCloudBackend.s3.uploadFile([{"Key":"[***]rent-[***]ud-[***]d.zip"}])
+2020-12-09T13:10:22.586Z|info : amplify-provider-awscloudformation.aws-s3.uploadFile.s3.putObject([{"Key":"[***]rent-[***]ud-[***]d.zip","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:10:24.023Z|info : amplify-provider-awscloudformation.attach-backend.uploadFile.s3.uploadFile([{"Key":"[***]ify-[***]json"}])
+2020-12-09T13:10:24.030Z|info : amplify-provider-awscloudformation.aws-s3.uploadFile.s3.putObject([{"Key":"[***]ify-[***]json","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:10:54.590Z|info : amplify add auth  
+2020-12-09T13:11:15.581Z|info : amplify add api  
+2020-12-09T13:14:04.354Z|info : amplify push core  
+2020-12-09T13:14:28.550Z|info : amplify-provider-awscloudformation.zip-util.downloadZip.s3.getFile([{"Key":"[***]rent-[***]ud-[***]d.zip"},null])
+2020-12-09T13:14:28.559Z|info : amplify-provider-awscloudformation.aws-s3.s3.getFile([{"Key":"[***]rent-[***]ud-[***]d.zip","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:14:29.829Z|info : amplify-provider-awscloudformation.initialize-env.run.cfn.updateamplifyMetaFileWithStackOutputs([{"StackName":"[***]ify-[***]cra-[***]ev-[***]942"}])
+2020-12-09T13:14:30.987Z|info : amplify-provider-awscloudformation.aws-s3.s3.getFile([{"Key":"[***]ify-[***]json","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:14:43.957Z|info : amplify-provider-awscloudformation.upload-appsync-files.uploadAppSyncFiles.upload.s3Client.uploadFile([{"Key":"[***]mation-[***]e.json"}])
+2020-12-09T13:14:43.964Z|info : amplify-provider-awscloudformation.aws-s3.uploadFile.s3.putObject([{"Key":"[***]ify-[***]ync-[***]es/[***]c5969e362c399fc9/[***]mation-[***]e.json","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:14:43.975Z|info : amplify-provider-awscloudformation.upload-appsync-files.uploadAppSyncFiles.upload.s3Client.uploadFile([{"Key":"[***]s.json"}])
+2020-12-09T13:14:43.976Z|info : amplify-provider-awscloudformation.aws-s3.uploadFile.s3.putObject([{"Key":"[***]ify-[***]ync-[***]es/[***]c5969e362c399fc9/[***]s.json","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:14:43.981Z|info : amplify-provider-awscloudformation.upload-appsync-files.uploadAppSyncFiles.upload.s3Client.uploadFile([{"Key":"[***]vers/[***]odo.req.vtl"}])
+2020-12-09T13:14:43.983Z|info : amplify-provider-awscloudformation.aws-s3.uploadFile.s3.putObject([{"Key":"[***]ify-[***]ync-[***]es/[***]c5969e362c399fc9/[***]vers/[***]odo.req.vtl","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:14:43.986Z|info : amplify-provider-awscloudformation.upload-appsync-files.uploadAppSyncFiles.upload.s3Client.uploadFile([{"Key":"[***]vers/[***]odo.res.vtl"}])
+2020-12-09T13:14:43.987Z|info : amplify-provider-awscloudformation.aws-s3.uploadFile.s3.putObject([{"Key":"[***]ify-[***]ync-[***]es/[***]c5969e362c399fc9/[***]vers/[***]odo.res.vtl","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:14:43.990Z|info : amplify-provider-awscloudformation.upload-appsync-files.uploadAppSyncFiles.upload.s3Client.uploadFile([{"Key":"[***]vers/[***]odo.req.vtl"}])
+2020-12-09T13:14:43.991Z|info : amplify-provider-awscloudformation.aws-s3.uploadFile.s3.putObject([{"Key":"[***]ify-[***]ync-[***]es/[***]c5969e362c399fc9/[***]vers/[***]odo.req.vtl","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:14:43.995Z|info : amplify-provider-awscloudformation.upload-appsync-files.uploadAppSyncFiles.upload.s3Client.uploadFile([{"Key":"[***]vers/[***]odo.res.vtl"}])
+2020-12-09T13:14:43.996Z|info : amplify-provider-awscloudformation.aws-s3.uploadFile.s3.putObject([{"Key":"[***]ify-[***]ync-[***]es/[***]c5969e362c399fc9/[***]vers/[***]odo.res.vtl","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:14:44.002Z|info : amplify-provider-awscloudformation.upload-appsync-files.uploadAppSyncFiles.upload.s3Client.uploadFile([{"Key":"[***]vers/[***]odo.req.vtl"}])
+2020-12-09T13:14:44.002Z|info : amplify-provider-awscloudformation.aws-s3.uploadFile.s3.putObject([{"Key":"[***]ify-[***]ync-[***]es/[***]c5969e362c399fc9/[***]vers/[***]odo.req.vtl","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:14:44.007Z|info : amplify-provider-awscloudformation.upload-appsync-files.uploadAppSyncFiles.upload.s3Client.uploadFile([{"Key":"[***]vers/[***]odo.res.vtl"}])
+2020-12-09T13:14:44.007Z|info : amplify-provider-awscloudformation.aws-s3.uploadFile.s3.putObject([{"Key":"[***]ify-[***]ync-[***]es/[***]c5969e362c399fc9/[***]vers/[***]odo.res.vtl","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:14:44.010Z|info : amplify-provider-awscloudformation.upload-appsync-files.uploadAppSyncFiles.upload.s3Client.uploadFile([{"Key":"[***]vers/[***]o.req.vtl"}])
+2020-12-09T13:14:44.011Z|info : amplify-provider-awscloudformation.aws-s3.uploadFile.s3.putObject([{"Key":"[***]ify-[***]ync-[***]es/[***]c5969e362c399fc9/[***]vers/[***]o.req.vtl","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:14:44.014Z|info : amplify-provider-awscloudformation.upload-appsync-files.uploadAppSyncFiles.upload.s3Client.uploadFile([{"Key":"[***]vers/[***]o.res.vtl"}])
+2020-12-09T13:14:44.014Z|info : amplify-provider-awscloudformation.aws-s3.uploadFile.s3.putObject([{"Key":"[***]ify-[***]ync-[***]es/[***]c5969e362c399fc9/[***]vers/[***]o.res.vtl","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:14:44.018Z|info : amplify-provider-awscloudformation.upload-appsync-files.uploadAppSyncFiles.upload.s3Client.uploadFile([{"Key":"[***]vers/[***]os.req.vtl"}])
+2020-12-09T13:14:44.019Z|info : amplify-provider-awscloudformation.aws-s3.uploadFile.s3.putObject([{"Key":"[***]ify-[***]ync-[***]es/[***]c5969e362c399fc9/[***]vers/[***]os.req.vtl","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:14:44.026Z|info : amplify-provider-awscloudformation.upload-appsync-files.uploadAppSyncFiles.upload.s3Client.uploadFile([{"Key":"[***]vers/[***]os.res.vtl"}])
+2020-12-09T13:14:44.028Z|info : amplify-provider-awscloudformation.aws-s3.uploadFile.s3.putObject([{"Key":"[***]ify-[***]ync-[***]es/[***]c5969e362c399fc9/[***]vers/[***]os.res.vtl","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:14:44.034Z|info : amplify-provider-awscloudformation.upload-appsync-files.uploadAppSyncFiles.upload.s3Client.uploadFile([{"Key":"[***]raphql"}])
+2020-12-09T13:14:44.035Z|info : amplify-provider-awscloudformation.aws-s3.uploadFile.s3.putObject([{"Key":"[***]ify-[***]ync-[***]es/[***]c5969e362c399fc9/[***]raphql","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:14:44.039Z|info : amplify-provider-awscloudformation.upload-appsync-files.uploadAppSyncFiles.upload.s3Client.uploadFile([{"Key":"[***]cks/[***]ces.json"}])
+2020-12-09T13:14:44.040Z|info : amplify-provider-awscloudformation.aws-s3.uploadFile.s3.putObject([{"Key":"[***]ify-[***]ync-[***]es/[***]c5969e362c399fc9/[***]cks/[***]ces.json","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:14:44.044Z|info : amplify-provider-awscloudformation.upload-appsync-files.uploadAppSyncFiles.upload.s3Client.uploadFile([{"Key":"[***]cks/[***]json"}])
+2020-12-09T13:14:44.045Z|info : amplify-provider-awscloudformation.aws-s3.uploadFile.s3.putObject([{"Key":"[***]ify-[***]ync-[***]es/[***]c5969e362c399fc9/[***]cks/[***]json","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:15:42.766Z|info : amplify-provider-awscloudformation.aws-s3.uploadFile.s3.putObject([{"Key":"[***]ify-[***]fn-[***]ates/[***]th/[***]0c6096-[***]mation-[***]e.yml","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:15:42.773Z|info : amplify-provider-awscloudformation.aws-s3.uploadFile.s3.putObject([{"Key":"[***]ify-[***]fn-[***]ates/[***]pi/[***]mation-[***]e.json","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:15:46.909Z|info : amplify-provider-awscloudformation.push-resources.updateCloudFormationNestedStack(["C:\\Users\\DD\\Videos\\sdaf\\amplifyapp\\amplify\\backend\\awscloudformation","C:\\Users\\DD\\Videos\\sdaf\\amplifyapp\\amplify\\backend\\awscloudformation\\nested-cloudformation-stack.yml"])
+2020-12-09T13:15:46.941Z|info : amplify-provider-awscloudformation.aws-s3.uploadFile.s3.putObject([{"Key":"[***]ted-[***]mation-[***].yml","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:19:01.681Z|info : amplify-provider-awscloudformation.utility-functions.getIntrospectionSchema.appSyncModel.appSync.getIntrospectionSchema([{"apiId":"[***]5zapmswrhty","format":"JSON"}])
+2020-12-09T13:19:07.942Z|info : amplify-provider-awscloudformation.push-resources.storeCurrentcoudBackend.s3.uploadFile([{"Key":"[***]rent-[***]ud-[***]d.zip"}])
+2020-12-09T13:19:07.943Z|info : amplify-provider-awscloudformation.aws-s3.uploadFile.s3.putObject([{"Key":"[***]rent-[***]ud-[***]d.zip","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:19:10.021Z|info : amplify-provider-awscloudformation.amplify-service-manager.s3.uploadFile([{"Key":"[***]ify-[***]json"}])
+2020-12-09T13:19:10.023Z|info : amplify-provider-awscloudformation.aws-s3.uploadFile.s3.putObject([{"Key":"[***]ify-[***]json","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:19:11.667Z|info : amplify-provider-awscloudformation.amplify-service-manager.s3.uploadFile([{"Key":"[***]end-[***].json"}])
+2020-12-09T13:19:11.668Z|info : amplify-provider-awscloudformation.aws-s3.uploadFile.s3.putObject([{"Key":"[***]end-[***].json","Bucket":"[***]ify-[***]cra-[***]ev-[***]942-[***]ment"}])
+2020-12-09T13:23:27.741Z|info : amplify status core  
+2020-12-09T13:24:15.983Z|info : amplify console api  
+2020-12-09T13:24:38.897Z|info : amplify console api  
+2020-12-09T13:26:38.322Z|info : amplify console core  
+2020-12-09T13:28:45.011Z|info : amplify console core  
+2020-12-09T13:31:26.118Z|info : amplify api mock  
