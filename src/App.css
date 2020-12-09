@@ -1,32 +1,133 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.done {
+  text-decoration: line-through;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.done textarea {
+  text-decoration: none !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.empty {
+  color: darkgray;
+}
+
+.media-head button {
+  font-size: 18px;
+  background-color: #1fd41f;
+  color: white;
+}
+body {
+  background-color: #1fd41f;
+}
+.btn-toggle {
+  background-color: white;
+}
+
+.bgColor {
+  background-color: #1fd41f;
+}
+.undone {
+  color: white;
+}
+kbd {
+  background-color: white;
+  color: black;
+}
+
+.text_box {
+  border-radius: 25px;
+  border: 1px solid white;
+  width: 100%;
+  margin: 1% 0% 2% 0%;
+  height: 35px;
+  padding-left: 25px;
+}
+.formLogin {
+  margin: auto;
+  width: 40%;
+  border: 1px solid white;
+  padding: 4%;
+  border-radius: 25px;
+}
+.submitLogin {
+  width: 36%;
+  border-radius: 25px;
+  border: 2px solid white;
+  background: white;
+  margin: 3% 32%;
+  cursor: pointer;
+}
+
+.postFix {
+  position: static;
+  margin-left: 90%;
+  margin-top: 2%;
+}
+.done {
+  text-decoration: line-through;
+  color: white;
+}
+
+.done textarea {
+  text-decoration: none !important;
+}
+
+.empty {
+  color: darkgray;
+}
+
+.media-head button {
+  font-size: 18px;
+  background-color: #1fd41f;
+  color: white;
+}
+body {
+  background-color: #1fd41f;
+}
+.btn-toggle {
+  background-color: white;
+}
+
+.bgColor {
+  background-color: #1fd41f;
+}
+.undone {
+  color: white;
+}
+kbd {
+  background-color: white;
+  color: black;
+}
+
+.text_box {
+  border-radius: 25px;
+  border: 1px solid white;
+  width: 100%;
+  margin: 1% 0% 2% 0%;
+  height: 35px;
+  padding-left: 25px;
+}
+.formLogin {
+  margin: auto;
+  width: 40%;
+  border: 1px solid white;
+  padding: 4%;
+  border-radius: 25px;
+}
+.submitLogin {
+  width: 36%;
+  border-radius: 25px;
+  border: 2px solid white;
+  background: white;
+  margin: 3% 32%;
+  cursor: pointer;
+}
+
+.postFix {
+  position: static;
+  margin-left: 90%;
+  margin-top: 2%;
+}
+body {
+  background: #1fd41f !important;
 }
