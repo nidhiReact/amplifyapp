@@ -48,16 +48,11 @@ const App = () => {
 
   async function deleteNote(id) {
     const newNotesArray = todos.filter((note) => note.id !== id);
+    console.log(newNotesArray,"id");
     setTodos(newNotesArray);
     await API.graphql(graphqlOperation(deleteTodo, { input: { id } }));
   }
-  async function updateNote(id) {
-    const newNotesArray = todos.map((todo) => {
-      todo.date = todo.id === id ? true : false;
-    });
-    setTodos(newNotesArray);
-    await API.graphql(graphqlOperation(deleteTodo, { input: { id } }));
-  }
+
   return (
     <div>
       <div style={styles.container}>
