@@ -66,7 +66,7 @@ class LoginForm extends React.Component {
           ref="username"
           placeholder="Enter you username"
         />
-        <div>Password</div>
+        <div>Passworddd</div>
 
         <input
           className="text_box"
