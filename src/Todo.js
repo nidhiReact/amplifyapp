@@ -101,7 +101,7 @@ class Todo extends Component {
     });
   };
   renderList() {
-    const { list, value, deleteMode, removing, editing } = this.state;
+    const { list, deleteMode, removing, editing } = this.state;
     if (Array.isArray(list) && list.length > 0) {
       return (
         <ul class="list-unstyled">
