@@ -1,42 +1,27 @@
 {
-  "name": "react-form-firebase",
+  "name": "simple-reactjs-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "",
   "dependencies": {
-    "react": "^16.1.0",
-    "react-dom": "^16.1.0",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "1.0.17"
+    "axios": "^0.18.0",
+    "bootstrap": "^4.5.3",
+    "react": "^16.4.1",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "description": "Todo APP",
-  "main": "index.js",
   "devDependencies": {
-    "axios": "^0.20.0",
-    "bootstrap": "^4.5.3",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.5"
-  },
-  "keywords": [
-    "react"
-  ],
-  "author": "Todo",
-  "license": "MIT",
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "gh-pages": "^1.2.0",
+    "bootstrap": "4.5.3"
   }
 }

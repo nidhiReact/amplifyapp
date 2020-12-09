@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Todo from "./Todo";
 import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 class App extends Component {
   state = {
     user: null,
